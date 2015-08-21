@@ -31,6 +31,7 @@ class Person {
 
     function getDir(){
         date_default_timezone_set('Asia/Shanghai');
+        echo '</br>';
         echo date('Y-m-d H:i:s').'</br>';
         echo '该文件位于'.__DIR__;
     }
